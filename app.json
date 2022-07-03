@@ -2,7 +2,7 @@
     "name": "NethyaChatBot",
     "description": "Hello, I am Nethya An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!",
     "logo": "https://telegra.ph/file/23932e22ece464a1fb06e.jpg",
-    "repository": "https://github.com/TheLogicalGuy/nethya",
+    "repository": "https://github.com/Ashmit-Das/redesigned-octo-doodle",
     "env": {
         "BOT_TOKEN": {
             "description": "telegram bot token here",
