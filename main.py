@@ -51,7 +51,7 @@ async def addchat(_, message):
     is_kuki = kuki.find_one({"chat_id": message.chat.id})
     if not is_kuki:
         kuki.insert_one({"chat_id": message.chat.id})
-        await message.reply_text(f"✅ | Successfully\n𝙉𝙚𝙩𝙝𝙮𝙖 Chatbot of this Group is set to @{message.chat.username}\n Requested by [{message.from_user.first_name}](tg://user?id={message.from_user.id})\n© @MetraVoid")
+        await message.reply_text(f"✅ | Successfully\n𝙉𝙚𝙩𝙝𝙮𝙖 Chatbot of this Group is set to @{message.chat.username}\n Requested by [{message.from_user.first_name}](tg://user?id={message.from_user.id})\n© @CYBERL3GENDS_NETWORK")
     else:
         await message.reply_text(f"Already Setup 𝙉𝙚𝙩𝙝𝙮𝙖 Chatbot of this Group Is @{message.chat.username}")
 
@@ -185,8 +185,8 @@ async def start(client, message):
         
     else:
        
-        buttons = [[InlineKeyboardButton("Support", url="https://t.me/MetraVoid_Support"),
-                    InlineKeyboardButton("Channel", url="https://t.me/MetraVoid"),
+        buttons = [[InlineKeyboardButton("Support", url="https://t.me/CYBERL3GENDS_NETWORK"),
+                    InlineKeyboardButton("Channel", url="https://t.me/CYBERL3GENDS_NETWORK"),
                     InlineKeyboardButton("Add", url="t.me/NethyaChatBot?startgroup=true")
                     ]]
         Photo = "https://telegra.ph/file/23932e22ece464a1fb06e.jpg"
